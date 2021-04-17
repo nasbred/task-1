@@ -1,0 +1,19 @@
+.column{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    width:50%;
+    height:100%;
+    margin-top: 24px;
+}
+
+.column1{
+    padding-left:24px;
+    padding-right:12px;
+}
+
+.column2{
+    padding-right:24px;
+    padding-left:12px;
+}

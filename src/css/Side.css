@@ -1,0 +1,7 @@
+.Side{
+    width:96px;
+    height:768px;
+    background-color: #2F3441;
+    display:flex;
+    flex-direction: column;
+  }

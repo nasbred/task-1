@@ -1,38 +1,782 @@
-.App {
-  text-align: center;
+
+
+.LinkContainer{
+  height: 20px;
+width: 141px;
+left: 351px;
+top: 6px;
+border-radius: 0px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+left: 71.34%;
+right: 0%;
+top: 18.75%;
+bottom: 18.75%;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 32px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Link{
+height: 20px;
+width: 141px;
+left: 0px;
+top: 0px;
+/* font-family: VTB Group UI; */
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+/* text-align: left; ????*/
+text-align: right;
+color: #0062FF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Link:hover{
+  color: #0142D3;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Link:active{
+  color: #022D9A;
+}
+
+.Link:disabled{
+  color: #B1B5BB;
+}
+
+.SearchInputContainer{
+  height: 40px;
+  width: 492px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+  
+
+  /* position: absolute; */
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  
+  /* Neutral / Neutral White */
+  
+  background: #FFFFFF;
+  /* Neutral / Neutral 30 */
+  
+  border: 1px solid #B1B5BB;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  margin-top: 88px;
+  margin-left: 32px;
+}
+
+.SearchInputDiv{
+  height: 24px;
+  width: 460px;
+  /* left: 16px;
+  top: 8px; */
+  border-radius: 0px;  
+  margin-top: 8px;
+  margin-left: 16px;
+}
+
+.SearchInput{
+  /* position: absolute; */
+  /* height: 24px; */
+  /* left: 16px;
+  right: 48px; */
+  /* top: 8px; */
+  height: 24px;
+width: 428px;
+/* left: 16px;
+top: 8px; */
+margin-bottom: 0px;
+margin-left: 0px;
+  
+  /* Body / Body 1 Long */
+  
+  font-family: VTB Group UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  
+  font-feature-settings: 'tnum' on, 'lnum' on, 'cv03' on, 'cv04' on;
+  
+  /* Neutral / Neutral 50 */
+  
+  color: #7B7E86;
+  
+
+}
+
+.svg{
+  height: 24px;
+width: 24px;
+left: 452px;
+top: 8px;
+border-radius: 0px;
+}
+
+svg{
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 8.33%;
+  bottom: 8.33%;
+  
+  opacity: 0.2;
+}
+
+.row{
+height: 20px;
+width: 489px;
+left: 32px;
+top: 88px;
+border-radius: 0px;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+/* position: absolute; */
+height: 20px;
+left: 32px;
+right: 35px;
+}
+
+.row1{
+margin-top: 88px;
+}
+
+.row2{
+margin-top: 16px;
+}
+
+.rowName{
+height: 20px;
+width: 447px;
+left: 0px;
+top: 0px;
+
+/* font-family: VTB Group UI; */
+font-size: 16px;
+font-style: normal;
+font-weight: 550;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #22242A;
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 32px;
+}
+
+.rowValue{
+  height: 20px;
+width: 10px;
+/* left: 479px; */
+top: 0px;
+
+  position: static;
+  /* left: 97.96%; */
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  
+  /* SubTitle / SubTitle 2 */
+  
+  font-family: VTB Group UI;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  
+  text-align: right;
+  font-feature-settings: 'tnum' on, 'lnum' on, 'cv03' on, 'cv04' on;
+  
+  /* Neutral / Neutral 90 */
+  
+  color: #22242A;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.rowName.indev{
+  height: 16px;
+  width: 456px;
+  left: 32px;
+  top: 96px;
+font-family: VTB Group UI;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+font-feature-settings: 'tnum' on, 'lnum' on, 'cv03' on, 'cv04' on;
+color: #7B7E86;
+}
+
+.table {
+  height: 248px;
+width: 323px;
+left: 200px;
+top: 96px;
+border-radius: 0px;
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 248px;
+left: 200px;
+right: 33px;
+top: 96px;
+
+box-shadow: 0px 6.400000095367432px 29px 0px #000000 12 %;
+
+box-shadow: 0px 1.2000000476837158px 18px 0px #000000 8 %;
+
+/* ЛКЭ */
+filter: drop-shadow(0px 1.2px 18px rgba(0, 0, 0, 0.08)), drop-shadow(0px 6.4px 29px rgba(0, 0, 0, 0.12));
+}
+
+.table .tableRow{
+height: 80px;
+width: 323px;
+left: 0px;
+/* top: 0px; */
+border-radius: 10px 0px;
+/* padding: 8px, 16px, 8px, 16px; */
+/* Auto Layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px;
+
+position: static;
+width: 323px;
+height: 80px;
+left: 0px;
+/* top: 0px; */
+
+/* Neutral / Neutral White */
+
+background: #FFFFFF;
+border-radius: 10px 0px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 1px 0px;
+top: 81px;
+
+box-shadow: 0px 0.9px 2px rgba(0, 0, 0, 0.32);
+
+
+
+}
+
+
+.rowTitle{
+  height: 24px;
+  width: 291px;
+  left: 16px;
+  top: 8px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  
+  position: static;
+  width: 291px;
+  height: 24px;
+  left: 16px;
+  top: 8px;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 4px 0px;
+}
+
+.rowContent{
+  height: 36px;
+width: 263px;
+left: 16px;
+top: 36px;
+border-radius: 0px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  
+  position: static;
+  width: 263px;
+  height: 36px;
+  left: 16px;
+  top: 36px;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 4px 0px;
+  margin-left:0px;
+}
+.smallTitle{
+  height: 20px;
+width: 113px;
+left: 0px;
+top: 2px;
+height: 20px;
+width: 113px;
+left: 0px;
+top: 2px;
+position: static;
+width: 113px;
+height: 20px;
+top: 2px;
+
+font-family: VTB Group UI;
+font-style: normal;
+font-weight: 550;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+font-feature-settings: 'tnum' on, 'lnum' on, 'cv03' on, 'cv04' on;
+
+/* Black */
+
+color: #29313D;
+margin-left:16px;
+}
+
+.smallComment{
+  font-family: VTB Group UI;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: static;
+width: 138px;
+height: 16px;
+/* left: 121px; */
+top: 4px;
+
+font-family: VTB Group UI;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 16px;
+/* identical to box height, or 160% */
+
+font-feature-settings: 'tnum' on, 'lnum' on, 'cv03' on, 'cv04' on;
+
+color: #D6D8DE;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+/* margin: 0px 8px; */
+margin-left:0px;
+}
+
+.tablecol1{
+height: 36px;
+width: 33px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+/* Auto Layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 33px;
+height: 36px;
+left: 0px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+/* margin: 0px 24px; */
+margin-left:16px;
+}
+
+.tablecol2{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 48px;
+height: 36px;
+left: 57px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+/* margin: 0px 24px; */
+  /* margin-left: 0px; */
+}
+
+.tablecol3{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+  padding: 0px;
+  
+  position: static;
+  width: 73px;
+  height: 36px;
+  left: 120px;
+  top: 0px;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0px 24px;
 }
 
-.App-link {
-  color: #61dafb;
+.colname{
+  font-family: VTB Group UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+  
+  font-feature-settings: 'tnum' on, 'lnum' on, 'cv03' on, 'cv04' on;
+  width: 33px;
+height: 20px;
+left: 0px;
+top: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.colvalue{
+  width: 33px;
+height: 20px;
+left: 0px;
+top: 16px;
+
+font-family: VTB Group UI;
+font-style: normal;
+font-weight: 550;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+font-feature-settings: 'tnum' on, 'lnum' on, 'cv03' on, 'cv04' on;
+
+}
+/* .green{
+  color: #26A644;
+}
+
+.blue{
+  color: #003AE5;
+}
+
+.red{
+  color: #D11F00;
+} */
+
+.tableresult{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: static;
+width: 134px;
+height: 32px;
+/* left: 129px; */
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+/* flex: none; */
+order: 2;
+flex-grow: 0;
+/* margin: 0px 24px; */
+}
+
+.tableresult .colname{
+  /* position: static; */
+  width: 93px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+  
+  font-family: VTB Group UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* or 133% */
+  
+  font-feature-settings: 'tnum' on, 'lnum' on, 'cv03' on, 'cv04' on;
+  
+  /* Black */
+  
+  color: #29313D;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+.tableresult .colvalue{
+  /* position: static; */
+width: 33px;
+height: 20px;
+left: 101px;
+top: 6px;
+
+font-family: VTB Group UI;
+font-style: normal;
+font-weight: 550;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+font-feature-settings: 'tnum' on, 'lnum' on, 'cv03' on, 'cv04' on;
+
+/* Black */
+
+color: #29313D;
+
+
+/* Inside Auto Layout */
+
+flex: none; 
+order: 1;
+flex-grow: 0;
+ margin: 0px 8px;
+}
+
+
+.tableRow.tableRow3{
+  /* Auto Layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 323px;
+height: 86px;
+left: 0px;
+top: 162px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+margin: 1px 0px;
+}
+.midiRow{
+  /* Auto Layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 8px 16px;
+
+position: static;
+width: 161px;
+height: 86px;
+left: 0px;
+top: 0px;
+
+/* Neutral / Neutral White */
+
+background: #FFFFFF;
+border-radius: 10px 0px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 1px;
+}
+
+.midiRow{
+  /* Auto Layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+/* padding: 8px 16px; */
+
+position: static;
+width: 161px;
+height: 86px;
+left: 0px;
+top: 0px;
+
+/* Neutral / Neutral White */
+
+background: #FFFFFF;
+border-radius: 10px 0px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 1px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+padding-bottom: 0px;
+box-shadow: 0px 0.9px 2px rgba(0, 0, 0, 0.32);
+}
+
+.midiRowCol{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: static;
+width: 66px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 2px 0px;
+}
+
+.midiName{
+  position: static;
+width: 82px;
+height: 16px;
+left: 0px;
+top: 2px;
+
+font-family: VTB Group UI;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+font-feature-settings: 'tnum' on, 'lnum' on, 'cv03' on, 'cv04' on;
+
+/* Black */
+
+color: #29313D;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 8px;
+}
+
+.midiValue{
+  position: static;
+width: 10px;
+height: 20px;
+left: 56px;
+top: 0px;
+
+font-family: VTB Group UI;
+font-style: normal;
+font-weight: 550;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+font-feature-settings: 'tnum' on, 'lnum' on, 'cv03' on, 'cv04' on;
+
+/* Black */
+
+color: #29313D;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 8px;
 }

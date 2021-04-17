@@ -1,0 +1,11 @@
+.green .MicroColumnName, .green .MicroColumnValue{
+    color: #26A644;
+  }
+  
+.blue .MicroColumnName, .blue .MicroColumnValue{
+    color: #003AE5;
+  }
+  
+.red .MicroColumnName, .red .MicroColumnValue{
+    color: #D11F00;
+  }

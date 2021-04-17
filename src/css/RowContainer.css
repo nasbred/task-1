@@ -1,0 +1,55 @@
+.RowContainer{
+   display:flex;
+   flex-direction: column;
+   
+   padding-left: 32px;
+   padding-right: 32px;
+   padding-bottom: 0px;
+}
+
+.Row{
+   height: 20px;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0px;
+   height: 20px;
+   margin-top: 16px;
+}
+
+.Row.RowFirst{
+   margin-top: 24px;
+}
+
+.RowName{
+  font-family: VTB Group UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #22242A;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  }
+  
+.RowValue{
+  font-family: VTB Group UI;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  font-feature-settings: 'tnum' on, 'lnum' on, 'cv03' on, 'cv04' on;
+  color: #22242A;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+  
+.Row.OnlyOneRow{
+  margin-top: 32px;
+}

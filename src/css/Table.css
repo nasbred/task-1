@@ -1,0 +1,112 @@
+.Table{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 248px;
+    width:100%;
+    border-radius: 10px 0px;
+    margin-top: 32px;
+    margin-right: 33px;
+    box-shadow: 0px 1.2px 18px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 6.4px 29px rgba(0, 0, 0, 0.12);
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.TableRow {
+    width:100%;
+    height: 80px;
+    border-radius: 10px 0px;
+    margin-bottom: 1px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    box-shadow: 0px 0.9px 1px rgba(0, 0, 0, 0.12);
+    background: #FFFFFF;
+}
+
+.TableRowTitle{
+    position: inherit;
+    padding-top: 8px;
+    padding-left:16px;
+    padding-right:16px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.TableRowTitleText{
+    padding-top: 2px;
+    font-family: VTB Group UI;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 20px;
+    width: 0;
+    color: #29313D;
+    flex-grow: 1;
+    margin: 0px 0px; 
+    float: left;
+}
+
+
+
+.TableRowTitleComment{
+    padding-top: 4px;
+    margin-left:8px;
+    font-family: VTB Group UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    color: #D6D8DE;
+    flex: none;
+    flex-grow: 1;
+    display: block;
+    float: left;
+}
+
+.TableRowTitleIcon{
+    padding-top: 2px;
+}
+
+
+
+.MiniRows {
+    width:100%;
+    height: 86px;
+    border-radius: 10px 0px;
+    flex: none;
+    /* order: 0; */
+    align-self: stretch;
+    box-shadow: 0px 0.9px 1px rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.MiniRow {
+    width:50%;
+    height: 100%;
+    border-radius: 10px 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    box-shadow: 0px 0.9px 1px rgba(0, 0, 0, 0.12);
+    margin-right: 1px;
+    background: #FFFFFF;
+}
+
+.TableRowContentContainer{
+    /* width: 100%; */
+    height: 36px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    /* padding-left: 16px;
+    padding-right: 16px; */
+    display: flex;
+    flex-direction: row;
+}

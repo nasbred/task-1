@@ -1,0 +1,10 @@
+.columnContainer{
+    width:1184px;
+     height:712px;
+     
+     mix-blend-mode: normal;
+     background-color: #f1f2f5;
+     display:flex;
+     flex-direction: row;
+  }
+  
